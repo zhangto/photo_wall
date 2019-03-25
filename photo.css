@@ -1,0 +1,13 @@
+.box{
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+.content{
+	box-shadow: 2px 2px 2px #999;
+	position: absolute;
+}
+.content img{
+	width: 220px;
+	display: block;
+}
