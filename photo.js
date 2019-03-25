@@ -13,7 +13,7 @@ var lis = {
 	created() {
 		for (var i = 1; i < 23; i++) {
 			this.list.push({
-				image: 'image/0000000' + i + '.jpg'
+				image: 'image/0000000' + i + '.jpg'//加载图片
 			});
 		}
 
