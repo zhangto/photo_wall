@@ -1,0 +1,7 @@
+	<template id="lis">
+	    <div class="box">
+	    	<div class="content" v-for="(item,index) in list" v-bind:key="item.id" ref="col
+	    		<img v-bind:src="item.image" alt="">
+	    	</div>
+	    </div>
+	</template>
