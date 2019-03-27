@@ -1,3 +1,6 @@
+var gap = 10;
+var leftH = 0;
+var rightH = 0;
 var lis = {
 	template: '#lis',
 	data() {
@@ -49,3 +52,15 @@ var lis = {
 		}
 	}
 };
+var routerObj = new VueRouter({
+	routes: [{
+		path: '/lis',
+		component: lis
+	}]
+});
+var vm = new Vue({
+	el: '#app',
+	data: {},
+	methods: {},
+	router: routerObj
+});
