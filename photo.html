@@ -1,7 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>音乐播放器</title>
+	<link rel="stylesheet" type="text/css" href="css/music.css">
+</head>
+<body>
+	<div class="main">
+		<!--body-->
+		<div id="app">
+			<router-view></router-view>
+		</div>
+	</div>
 	<template id="lis">
-	    <div class="box">
-	    	<div class="content" v-for="(item,index) in list" v-bind:key="item.id" ref="col
-	    		<img v-bind:src="item.image" alt="">
-	    	</div>
-	    </div>
+		<div class="box">
+			<div class="content" v-for="(item,index) in list" v-bind:key="item.id" ref="col">
+				<img v-bind:src="item.image" alt="">
+			</div>
+		</div>
 	</template>
+	<script type="text/javascript" src="js/vue-2.4.0.js"></script>
+	<script type="text/javascript" src="js/vue-router-3.0.1.js"></script>
+	<script type="text/javascript" src="js/vue-resource-1.3.4.js"></script>
+	<script type="text/javascript" src="js/music.js"></script>
+</body>
+</html>
